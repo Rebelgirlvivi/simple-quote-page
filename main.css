@@ -1,10 +1,16 @@
 p {
-    text-align: center;
+    text-align: center, justify;
     font-size: 30px;
-    font-family: fantasy;
+    font-family: "Times New Roman";
+    font-style: italic;
+    margin: 0px;
 }
 body {
     background-image: url("assets/tabla.jpg");
     background-size: 100vw;
     background-repeat: no-repeat;
+    padding: inherit;
     }
+.left {
+    float: left;
+}
