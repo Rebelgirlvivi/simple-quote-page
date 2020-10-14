@@ -1,9 +1,10 @@
 p {
-    text-align: center, justify;
+    text-align: left;
     font-size: 30px;
     font-family: "Times New Roman";
     font-style: italic;
     margin: 0px;
+    float: left;
 }
 body {
     background-image: url("assets/tabla.jpg");
@@ -13,4 +14,20 @@ body {
     }
 .left {
     float: left;
+}
+div.transbox {
+  width:800px;
+  height:100%;
+  margin-top: 150px;
+
+  opacity:0.8;
+  filter:alpha(opacity=80);
+    float: left
+}
+div.transbox p {
+  margin:30px 40px;
+  font-weight:normal;
+  font-family: georgia;
+  font-size: 36px;
+  float: left
 }
